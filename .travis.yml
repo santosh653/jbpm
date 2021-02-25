@@ -14,7 +14,6 @@ before_install:
  - export MAVEN_HOME=/opt/maven
  - export PATH=${MAVEN_HOME}/bin:${PATH}  
   
-
 script:
  - mvn clean install -DskipTests
  - mvn test
